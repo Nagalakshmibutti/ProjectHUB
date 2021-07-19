@@ -1,0 +1,396 @@
+nav{
+    margin-top: 5px;
+    background:#894d9a;
+    height: 50px;
+    width: 100%;
+    
+ }
+ 
+ /* Project Title */
+ label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 60px;
+    font-weight: bold;
+ }
+ .nav-bar i{
+    font-size: 20px;
+    color: white;
+ }
+ nav ul{
+    margin-top: 11px;
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 10px;
+    
+ 
+ }
+ .nav-bar ul {
+    list-style:none;
+ }
+ 
+ .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 0px 13px;
+    border-radius: 3px;
+ 
+ }
+
+
+
+
+
+/***************************END NAVIGATION**************************/
+.main-page{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.main-section{
+    
+    margin-left: 60px;
+    width: 1200px;
+    height: 500px; 
+    
+}
+
+/* PROJECT DETAILS SECTION */
+.section-1
+{
+    position:absolute;
+    top: 140px;
+    width: 700px;
+    height: 500px;
+    background: rgb(230, 230, 230);
+    /*box-shadow: 2px 0px 5px 2px gray;*/
+}
+
+/* HEADER SECTION FOR PROJECT DETAILS SECTION */
+
+.section_1_dept_name1{
+    width: 700px;
+    height: 50px;
+   
+}
+
+/*  DEPARTMENT TITLE */
+
+.section_1_dept_name1-1{
+   font-size: 25px;
+    position: absolute;
+    height: 50px;
+    width: 450px; 
+    background-color:#894d9a; 
+     color: beige;
+    font-style: bold;
+    font-family: cursive;
+    padding-top: 10px;
+    padding-left: 5px;
+   
+   
+}
+.section_1_dept_name1-1::after{
+    content:'';
+    height: 51px;
+    width: -30px;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    position:absolute;
+    right:-10px;
+    top:0;
+    border-left:10px solid #894d9a;
+}
+
+/* PROJECT NUMBER */
+
+.section_1_dept_name1-2{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    background-color: #894d9a;
+    color: rgb(252, 238, 238);
+    border-radius: 30px;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px;
+    font-size: 20px;
+}
+/*********** PROJECT DETAILS ***************/
+.section-1 .section_1_projectdetails{
+    padding: 30px 30px;
+}
+/* PROJECT TITTLE */
+
+.section-1 .section_1_project_title{
+    position: relative;
+    height: 50px;
+    
+}
+
+/* PROJECT DETAILS LIKE DESCRIPTION */ 
+
+.section-1 .section_1_project_description
+{
+    position: relative;
+    margin-top: 20px;
+    height: 150px;
+    overflow: hidden;
+   overflow-y: scroll;
+   
+}
+
+.section-1 .section_1_project_reference{
+    position: relative;
+    margin-top: 15px;
+    height: 100px;
+}
+
+.section-1 .section_1_download{
+    margin-top: 10px;
+    float: right;
+}
+.section-1 .section_1_download i{
+    font-size: 20px;
+    color: rgb(43, 40, 40);
+}
+.section-1 .download {
+    border: 2px solid #894d9a;
+    width: 150px;
+    height: 45px;
+
+}
+.section-1 button:hover{
+    background: #894d9a;
+    color: white;
+}
+
+/* PROJECT VIDEO AND PROJECT GROUP DETAILS SECTION  */
+
+
+
+
+.section-2{
+    position: absolute;
+    left: 830px;
+    width: 450px;
+    height: 450px;
+    top: 120px;
+   
+}
+
+/* PROJECT VIDEO SECTION */ 
+.section2-demovideo{
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 230px;
+    background: rgb(230, 230, 230);
+   /* box-shadow: 2px 0px 5px 2px gray;*/
+}
+.section2-video video{
+    margin-top: 20px;
+    width: 400px;
+    height: 150px;
+    
+}
+
+/* HEADERS OF THE SECTION-2 LIKE DEMO VIDEO AND PROJECT GROUP DETAILS */
+
+.section2-title{
+    height: 50px;
+    text-align: center;
+    background:#894d9a;
+    color: rgb(255, 249, 249);
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: serif;
+
+}
+/* PROJCET PROJECT GROUP DETAILS */ 
+
+.section2-sub2{
+    position: absolute;
+    top: 260px;
+    width: 400px;
+    height: 230px;
+    background: rgb(230, 230, 230);
+   /* box-shadow: 2px 0px 5px 2px gray;*/
+    
+}
+ul{
+    list-style-type: none;
+}
+.section-2 .section2-sub2 .section2-sub2-projectdetails{
+    padding: 20px 20px;
+}
+.section-2 .section2-sub2 .section2-sub2-projectdetails a{
+    text-decoration: none;
+    color: #3f164b;
+
+}
+
+
+
+
+/*************Comment Section *****************/
+.comment_main{
+    width: 800px;
+    height: auto;
+    background-color: rgb(232, 232, 243);
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.comment_main .comment_section{
+    padding: 30px 20px;
+}
+.comment_main .comment_section .comment_content input{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    width: 500px;
+    border-bottom: 2px solid #894a89;
+    background-color: rgb(232, 232, 243);
+    margin-left: 30px;
+}
+.comment_main .comment_section .comment_content input[type="text"]:focus{
+    outline: none;
+    border-bottom: 2px solid #894a89;
+    padding: 10px 10px;
+    background-color: rgb(232, 232, 243);
+}
+.comment_main .comment_section .comment_button{
+    margin-top: 20px;
+}
+.comment_main .comment_section .comment_button button{
+    border : 2px solid #894a89;
+    padding: 3px 5px; 
+    border-radius: 5px;
+}
+.comment_main .comment_section .comment_button .btn1{
+    background: #894a89;
+    color: white;
+    margin-right: 20px;
+    
+}
+.comment_main .comment_section .comment_button .btn2{
+    padding: 2px 17px;
+}
+
+
+
+/**************** Navigation BAR *************************/
+
+
+.oneproject_header{
+    width: 100%;
+    height: 60px;
+    background: #894d9a;
+}
+
+
+
+/*********************  POP UP ***********************/
+.content{
+    width: 300px;
+    height: 200px;
+    margin:0px auto;
+    margin-left: 500px;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -200px;
+}
+.content .alert_title{
+    position: absolute;
+    height: 55px;
+    color: white;
+    font-size: 30px;
+    background-color: #894d9a;
+    padding: 20px 20px;
+    width: 260px;
+    text-align: center;
+}
+.content .alert_msg{
+    position: absolute;
+    margin-top: 55px;
+    padding: 20px 20px;
+    width: 260px;
+    background-color: #894d9a;
+}
+
+
+/**************** CLick *****************/
+#click{
+    display: none;
+}
+.click-me{
+    background-color: #894d9a;
+}
+button{
+    background-color: #894d9a;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+#click:checked ~ .content{
+
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/**************** Student sign Up page ******************/
+.student_inputs input[type="text"] {
+	margin-left:20px
+	outline:none;
+	padding: 3px 5px;
+	border:none;
+	
+}
+.student_inputs input[type="password"]{
+	margin-left:20px
+	outline:none;
+	padding: 3px 5px;
+	border:none;
+}
+.student_inputs input[type="text"]:focus{
+outline:none;
+border:none;
+padding:3px 5px;
+}
+.student_inputs input[type="password"]:focus{
+outline:none;
+border:none;
+padding:3px 5px;
+}
+.student_inputs .student_password{
+    display: flex;
+    height: 40px;
+    width: 270px;
+    border: 2px solid #894d9a;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.student_inputs .student_id{
+    display: flex; 
+    height: 40px;
+    width: 270px;
+    border: 2px solid #894d9a;
+    border-radius: 4px;
+
+}
+.student_inputs  i{
+
+margin: 2.5px 5px;
+font-size:20px;
+color:#894b89;
+}

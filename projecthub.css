@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    list-style: none;
+}
+.wrapper{
+    width: 1200px;
+   margin-top: 50px;
+   margin-left: 80px;
+   margin-right: 50px;
+}
+.tabs ul{
+    display: flex;
+    background: #894d9a;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    color: white;
+}
+.tabs ul li{
+    width: 250px;
+    padding:15px;
+    border-right: 1px solid grey;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.tabs ul li:last-child{
+    border-right: 0px;
+}
+
+.tabs ul li::after{
+    content: " ";
+    position: absolute;
+    top:-1px;
+    right: 0px;
+    width: 100%;
+    height: 2px;
+    background: rgb(3, 21, 37);
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+.tabs ul li:hover,
+.tabs ul li.active{
+    /*background: rgba(105, 155, 219, 0.829);*/
+    color: rgb(5, 6, 54);
+}
+.tabs ul li:hover:after,
+.tabs ul li:hover:after{
+    opacity: 1;
+}
+
+
+/**********************Content ***********************/
+.content{
+  /* border: 1px solid grey;*/
+  background-color: rgb(248, 228, 240);;
+   border-radius: 5px;
+   padding: 20px;
+}
+.tab_wrap .title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.tab_content {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+/************************* TiTLE ****************/
+
+.title h4{
+    
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+
+/************************** CONTENT *********************/
+.tab_content{
+    font-size: 15px;
+    font-style: normal;
+}
+
+
+
+
+/******************* Faculty *************************/
+
+
+.Department_names{
+    word-spacing: 4px;
+    margin-left: 60px;
+    color:rgb(5, 67, 78) ;
+    font-size: 25px;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+
+.cse_department{
+    margin-top: 30px;
+    display: inline-flex;
+    margin-left: 20px;
+}
+.profile_card{
+    width: 300px;
+    height: 230px;
+    background-color: rgb(238, 238, 227);
+    margin-left: 50px;
+   
+    /*box-shadow: 2px 0px 5px 2px gray; */
+}
+.profile_card:hover{
+
+    box-shadow: 2px 0px 5px 2px gray;
+   
+    background-color: white;
+}
+.faculty_image{
+   
+    padding-top: 10px;
+    width: 100px;
+}
+img{
+    height: 100px;
+    align-items: center;
+    border-radius: 200px;
+}
+img:hover{
+    border-style: solid 2px red;
+
+}
+.faculty_section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faculty_details{
+    width: 200px;
+    margin-top: 20px; 
+    padding-left: 20px;
+}
+.faculty_section1{
+    height: 100px;
+    width: 300px;
+}
+
+.faculty_domains{
+    font-family: inherit;
+   margin-top: 30px;
+    width: 270px;
+    height: 100px;
+    text-align: left;
+    margin-left: 10px;
+}
+.faculty_domains:hover{
+    color: rgb(5, 67, 78);
+}
+.fas{
+    color: rgb(5, 67, 78);
+}
+
+
+/********************* Contact Form ****************/
+.contact_page{
+    width: 300px;
+    margin-left: 50px;
+}
+
+/************** Title ******************/
+.title h4{
+    border-bottom: 2px solid  #894a89;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.contact_page .contact{
+    padding: 20px 25px;
+}
+
+.contact_page .contact .contact_form{
+    margin-top: 10px;
+}
+.contact_page .contact .contact_form input{
+     width: 100%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border: 2px solid #894a89;
+     border-radius: 4px;
+     padding: 3px 10px;
+ }
+
+ .contact_page .contact .contact_form input:focus{
+     outline: none;
+     border-radius: 4px;
+     border: 2px solid #894a89;
+     border-radius: 10px;
+ }
+
+ .contact_page .contact .contact_form textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #894a89;
+    border-radius: 4px;
+    padding: 3px 10px;
+ }
+ .contact_page .contact .contact_form textarea:focus{
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #894a89;
+
+ }

@@ -1,0 +1,336 @@
+
+nav{
+    margin-top: 5px;
+    background:#894d9a;
+    height: 50px;
+    width: 100%;
+    
+ }
+ 
+ /* Project Title */
+ label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 60px;
+    font-weight: bold;
+ }
+ nav ul{
+    margin-top: 11px;
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 10px;
+    
+ 
+ }
+ .nav-bar ul {
+    list-style:none;
+ }
+ 
+ .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 0px 13px;
+    border-radius: 3px;
+ 
+ }
+ /*nav ul li a:hover{
+    background: white;
+    transition: .5s;
+    color: rgb(5, 2, 24);
+  
+ }*/
+ .nav-bar i{
+    font-size: 20px;
+    color: white;
+ }
+
+
+ /********** END of navigation bar ********************/
+.section1{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+.section1 .search_box{
+    display: flex;
+}
+.section1 .search_box .search_field{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+   
+   display: flex;
+}
+
+.section1 .search_box .search_field .input{
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 38px;
+  
+    outline: none;
+    border: 2px solid #894d9a;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.section1 .search_box .search_field .fas{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    color: #894d9a;
+    cursor: pointer;
+}
+
+.select-box{
+    /*border: 2px solid #894d9a;
+      border-radius: 10px;*/
+    border: none;
+  
+    height: 30.5px;
+    width: 200px;
+
+}
+.select-box select{
+    height: 39px;
+    width: 200px;
+    border: 2px solid #894d9a;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.section1  button{
+    width: 100px;
+    height: 40px;
+    background-color:#894d9a ;
+    color: white;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: #894d9a;
+}
+
+/*************************** SECTION_2 ****************************/
+.section-2{
+    height: 800px;
+    width: 100%;
+    margin-top: 60px;
+    padding: 0px 200px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.section-2 .project{
+    width: 270px;
+    height: 290px;
+    background: rgb(248, 245, 245);
+    
+}
+.section-2 .project img{
+    width:270px;
+    height: 130px;
+}
+.section-2 .project img:hover{
+    opacity: 0.78
+}
+
+.section-2 .project .project_details{
+    padding: 10px 20px
+}
+
+.section-2 .project h5{
+    border-bottom: 2px solid  rgb(101, 43, 139);
+    display: inline-block;
+}
+.section-2 .project .project_name{
+    padding-top: 9px;
+    
+}
+.section-2 .project .viewmore{
+    padding-top: 10px;
+}
+.section-2 .project .viewmore button{
+    width: 100px;
+    height: 35px;
+    border : 1.5px solid #894d9a;
+    background: honeydew;
+    color: rgb(73, 13, 112);
+}
+.section-2 .project .viewmore button:hover{
+    background: #894d9a;
+    color: honeydew;
+}
+.section-2 .project .viewmore button a{
+    text-decoration: none;
+}
+
+.project:hover{
+    box-shadow: 2px 0px 5px 2px gray; 
+}
+
+
+
+
+/************************** Imgae Over ********************************/
+.project_img_hover{
+    position: relative;
+    background: violet;
+    width: 270px;
+    height: 130px;
+}
+.project_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.img_overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 10px solid grey;*/
+    opacity: 0;
+}
+.img_overlay:hover{
+    opacity: 1;
+}
+.img_overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
+}
+.img_overlay:hover > *{
+    transform: translateY(0px);
+}
+
+
+
+
+/*
+.section1 ul{
+    list-style: none;
+}
+.section1 .search_box{
+    width: 500px;
+    background-color: rgb(165, 105, 165);
+    height: 65px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+}
+.section1 .search_box .dropdown{
+    width: 150px;
+    border-right: 2px solid red;
+    position: relative;
+    cursor: pointer;
+
+}
+/*.section1 .search_box .dropdown ul{
+    display: none;
+}
+.section1 .search_box .dropdown .default_option{
+    padding: 13px 15px;
+    font-size: 14px;
+}
+.section1 .search_box .dropdown ul{
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    background: darkorchid;
+    width: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    opacity:0;
+    visibility: hidden;
+}
+.section1 .search_box .dropdown:hover ul{
+    opacity: 1;
+    visibility: visible;
+
+}
+.section1 .search_box .dropdown ul li{
+    padding-bottom: 20px;
+}
+.section1 .search_box .dropdown ul li:last-child{
+    padding-bottom: 0;
+}
+.section1 .search_box .dropdown ul li:hover{
+    color: darkred;
+}
+.section1 .search_box .dropdown::before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    border: 8px solid;
+    border-color: #5f2270 transparent transparent transparent;
+}*/
+
+/*
+<div class="boxContainer">
+<table class="elementsContainer">
+    <tr>
+        <td>
+            <input  class="search" type="text" placeholder="Serach project">
+        </td>
+        <td>
+             <i class="fas fa-search"></i>
+        </td>
+    </tr>
+</table>
+</div>
+
+
+ .boxContainer{
+     margin-top: 20px;
+     position: relative;
+     width: 450px;
+     height: 42px;
+     border: 2.5px solid #5f2270;
+     border-radius: 50px;
+ }
+ .elementsContainer{
+     width: 100%;
+     height: 100%;
+     vertical-align: middle;
+ }
+ .search{
+     border: none;
+     height: 100%;
+     width: 100%;
+     border-radius:100px;
+     font-size: 15px;
+     color: #0b080c;
+     font-weight: 500;
+     padding: 0px 20px;
+ }
+ .search:focus{
+     outline: none;
+ }
+ .elementsContainer i{
+     font-size: 25px;
+     color: #5f2270 ;
+ }*/

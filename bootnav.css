@@ -1,0 +1,459 @@
+
+*{
+   list-style: none;
+}
+
+
+
+.nav-header{
+   background-color:#894d9a;
+   list-style-type: none;
+   text-decoration: none;
+   display: flex;
+   color: rgb(255, 250, 251);
+}
+
+.rguktlogo img{
+   margin-top: 10px;
+   margin-left: 50px;
+   height: 60px;
+   width: 60px;
+   border-radius: 100px;
+   
+
+}
+.rgukt-details{
+   margin-left: 50px;
+   left: 300px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+/* Nanvigation bar code*/
+
+nav{
+   margin-top: 5px;
+   background:#894d9a;
+   height: 50px;
+   width: 100%;
+   
+}
+
+/* Project Title */
+label.logo{
+   color:white;
+   font-size: 35px;
+   line-height: 50px;
+   padding: 0 60px;
+   font-weight: bold;
+}
+.nav-bar i{
+   font-size: 20px;
+   color: white;
+}
+nav ul{
+   margin-top: 11px;
+   float: right;
+   margin-right: 20px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 20px;
+   margin: 0 10px;
+   
+
+}
+.nav-bar ul {
+   list-style:none;
+}
+
+.nav-bar ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 22px;
+   padding: 0px 13px;
+   border-radius: 3px;
+
+}
+.my{
+   text-decoration: none;
+   color: white;
+   font-size: 22px;
+   padding: 0px 13px;
+
+}
+/*nav ul li a:hover{
+   background: white;
+   transition: .5s;
+   color: rgb(5, 2, 24);
+ 
+}*/
+
+
+/************************** Student Login **********************/
+.student_inputs input[type="text"] {
+	margin-left:20px
+	outline:none;
+	padding: 3px 5px;
+	border:none;
+	
+}
+.student_inputs input[type="password"]{
+	margin-left:20px
+	outline:none;
+	padding: 3px 5px;
+	border:none;
+}
+.student_inputs input[type="text"]:focus{
+outline:none;
+border:none;
+padding:3px 5px;
+}
+.student_inputs input[type="password"]:focus{
+outline:none;
+border:none;
+padding:3px 5px;
+}
+.student_inputs .student_password{
+    display: flex;
+    height: 40px;
+    width: 270px;
+    border: 2px solid #894d9a;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.student_inputs .student_id{
+    display: flex; 
+    height: 40px;
+    width: 270px;
+    border: 2px solid #894d9a;
+    border-radius: 4px;
+
+}
+.student_inputs  i{
+
+margin: 2.5px 5px;
+font-size:20px;
+color:#894b89;
+}
+
+
+
+/*************************** Image-Gallery **************************************/
+.section-2{
+   height: 400px;
+   margin-left: 30px;
+}
+
+.gallery{
+   margin-left: 70px;
+   margin-top: 50px;
+   position: absolute;
+ 
+}
+.slider{
+   width :700px;
+   height:350px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.slides{
+   width: 500%;
+   height: 500px;
+   display: flex;
+   
+}
+
+.slides input{
+   display: none;
+}
+.slide{
+   width: 20%;
+   transition: 2s;
+}
+.slide img{
+   width : 700px;
+   height: 370px;
+   border-radius: 10px;
+}
+
+/* css for manual navigation */
+
+.navigation-manual{
+   position: absolute;
+   width:700px;
+   display: flex;
+   justify-content: center;
+   margin-top: -180px;
+   
+}
+
+.manual-btn{
+   border: 2px solid #151d1d;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+.manual-btn:not(:last-child){
+   margin-right: 15px;
+}
+.manual-btn:hover{
+   background-color: rgb(20, 22, 22);
+}
+#radio1:checked ~ .first{
+   margin-left: 0;
+}
+#radio2:checked ~ .first{
+   margin-left: -20%;
+}
+#radio3:checked ~ .first{
+   margin-left: -40%;
+}
+#radio4:checked ~ .first{
+   margin-left: -60%;
+}
+
+
+/* css for automatic navigation */
+
+.navigation-auto{
+   position: absolute;
+   display: flex;
+   width: 700px;
+   justify-content: center;
+   margin-top: 320px;
+}
+
+.navigation-auto div{
+   border :2px solid #181717;
+   padding :5px;
+   border-radius: 10px;
+   transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+   margin-right:15px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+   background:white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+   background:white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+   background:white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+   background:white;
+}
+
+
+
+/*********************** Notification Bar ***********************************/
+
+
+.notifications{
+   position: absolute;
+   margin-top: 50px;
+   right: 100px;
+   width: 350px;
+   height: 350px;
+   box-shadow: 2px 0px 5px 2px gray;
+}
+.notifications{
+   
+  background-color: rgb(252, 252, 252);
+   align-items: center;
+   justify-content: center;
+  
+}
+.notifications .title{
+   height: 70px;
+   padding-top: 10px;
+}
+.notifications h4{
+   color: rgb(73, 13, 112);
+   display: inline-block;
+   border-bottom: 2px solid  rgb(73, 13, 112);
+   margin-left: 20px;
+}
+ .newslist{
+   height: 250px;
+   overflow: hidden;
+   overflow-y: scroll;
+}
+.notifications ul{
+   list-style: none;
+}
+
+.date{
+   background-color:  rgb(106, 56, 139);
+   width: 100px;
+   color: lavenderblush;
+}
+
+
+/*************************** Latest Projects uploaded ****************************/
+.section-3 {
+   margin-top: 60px;
+
+}
+.section-3-heading h4{
+   word-spacing: 4px;
+   font-size: 30px;
+   color: rgb(73, 13, 112);
+   margin-left: 100px;
+    display: inline-block;
+    border-bottom: 2px solid  rgb(73, 13, 112);
+    
+   
+}
+
+
+
+
+.content_slider{
+   margin-top: 40px;
+   margin-left: 30px;
+   position: relative;
+   left:120px;
+   right: 100px;
+   height: 300px;
+   width: 1200px;
+   display: flex;
+   /*flex-wrap: wrap;
+   justify-content: space-between;*/
+   text-align: center;
+}
+
+.item-1{
+   margin-top: 20px;
+   width: 300px;
+   height: 260px;
+   box-shadow: 2px 0px 5px 2px gray; 
+}
+.head-1{
+   word-spacing: 10px;
+   font-weight: bold;
+   font-size: 22px;
+   width: 300px;
+   height: 45px;
+   padding-top: 8px;
+   background-color: #894d9a;
+   color: white;
+}
+
+/****** Project Icon and Title ********/
+.projectdetails{
+   display: flex;
+   margin-top: 25px;
+   padding: 0px 10px;
+}
+
+.project-title{
+   margin-top: -10px;
+   height: 110px;
+}
+.Groupdetails{
+    height: 50px;  
+    margin-top: -20px;
+}
+
+.viewMore{
+   margin-top: 2px;
+   padding: 5px;
+   
+}
+.viewmore-btn{
+   border: 2px solid #894d9a;
+   padding: 4px 13px;
+   background-color: white;
+}
+.viewmore-btn:hover{
+   background: #894d9a;
+   color: rgb(247, 231, 231);
+   border:2px solid #894d9a;
+}
+
+/***** Item -2 *****/
+.item-2{
+   margin-top: 20px;
+   width: 300px;
+   height: 260px;
+   box-shadow: 2px 0px 5px 2px gray; 
+   margin-left: 80px;
+   
+}
+
+
+/***** Item -3 *****/
+.item-3{
+   margin-top: 20px;
+   width: 300px;
+   height: 260px;
+   box-shadow: 2px 0px 5px 2px gray; 
+   margin-left: 80px;
+}
+
+/**************** Icons colors ******************/
+
+.cseicon{
+   color:rgb(8, 109, 84);
+}
+.mechicon{
+   color: rgb(131, 119, 12);
+}
+.eceicon{
+   color: rgb(158, 17, 87);
+}
+
+
+/*********************** FOOTER *********************************/
+.footer{
+   margin-top: 40px;
+   background-color: rgb(102, 97, 105);
+   color: white;
+   height: 170px;
+   display: flex;
+   padding-top: 20px;
+  width:1350px ;
+}
+.footer-section-1{
+   margin-left: 70px;
+   height: 150px;
+   width: 350px;
+   padding-right: 50px;
+
+}
+.footer .footer-section-2{
+   margin-left: 50px;
+  /* background-color: rgb(234, 250, 15);*/
+   height: 150px;
+   width: 170px;
+   list-style-type: none;
+}
+
+.footer .footer-section-2 a:hover ,.footer .footer-section-3 a:hover{
+   color: white;
+}
+.footer-section-3{
+   margin-left: 100px;
+   height: 150px;
+   width: 250px;
+}
+
+.footer-section-4{
+   margin-left: 40px;
+   height: 150px;
+
+}
+.footer a{
+   color: white;
+   text-decoration: none;
+}
+
+
+/******************** STUDENT LOGIN ***********************/
+

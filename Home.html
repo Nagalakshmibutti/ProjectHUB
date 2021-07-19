@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootnav.css">
+    <link rel="stylesheet" href="iconcss/all.min.css">
+    <link rel="stylesheet" href="iconcss/fontawesome.min.css">
+    <!--Boot strap File-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Home</title>
+</head>
+<body>
+   <div class="navigation-section">
+       <div class="nav-header">
+           <div class="rguktlogo"><img src="Gallery/rgukt.png" alt="rguktlogo"></div>
+           <div class="rgukt-details"> <h2>Rajiv Gandhi University Of Knowledge Technologies - srikakulam</h2>                              
+        </div>
+       </div>
+       <div class="navigation-bar">
+           
+            <nav class="nav-bar"> 
+                <label class="logo">ProjectHUB</label>
+                <ul class="nav-element">
+                <li> <i class="fas fa-home"></i><a href="#">Home</a> </li>
+                <li> <i class="fas fa-tasks"></i><a href="All_projects.html">Projects</a></li>
+            
+                <li  data-toggle="modal" data-target="#exampleModal1" class="my"> <i class="fas fa-user-graduate mr-2"></i>StudentLogin</li>
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Login Page</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+
+                          <!--Student Login-->
+                          <div class="student_inputs">
+                            <form action="">
+                                    <div class="student_id">
+                                        <div class="student_icon"><i class="far fa-user"></i></div>
+                                        <div class="student_id_input"><input type="text" placeholder="Enter ID" required></div>
+                                    </div>                        
+                                    <div class="student_password">
+                                        <div class="password_icon"><i class="fas fa-key"></i></div>
+                                        <div class="student_password_input"><input type="password" placeholder="Enter Password" required></div>
+                                    </div>
+                                   
+                            </form>
+                           </div>
+                           <!--Student Login-->
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary"><a href="User_profile/user_profile.html" target="_blank" class="my">Log in</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <li data-toggle="modal" data-target="#exampleModal2" class="my"> <i class="fas fa-user mr-3"></i>FacultyLogin</li>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Faculty Login Page</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                             <!--Student Login-->
+                          <div class="student_inputs">
+                            <form action="">
+                                    <div class="student_id">
+                                        <div class="student_icon"><i class="far fa-user"></i></div>
+                                        <div class="student_id_input"><input type="text" placeholder="Enter Name" required></div>
+                                    </div>                        
+                                    <div class="student_password">
+                                        <div class="password_icon"><i class="fas fa-key"></i></div>
+                                        <div class="student_password_input"><input type="password" placeholder="Enter Password" required></div>
+                                    </div>
+                                   
+                            </form>
+                           </div>
+                           <!--Student Login-->
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary"><a href="Admin_login_User_edit/Faculty_Page.html" target="_blank" class="my">Log in</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <li data-toggle="modal" data-target="#exampleModal3" class="my"> <i class="fas fa-user mr-2"></i>AdminLogin</li>
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Admin Login Page</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                             <!--Student Login-->
+                          <div class="student_inputs">
+                            <form action="">
+                                    <div class="student_id">
+                                        <div class="student_icon"><i class="far fa-user"></i></div>
+                                        <div class="student_id_input"><input type="text" placeholder="Enter Name" required></div>
+                                    </div>                        
+                                    <div class="student_password">
+                                        <div class="password_icon"><i class="fas fa-key"></i></div>
+                                        <div class="student_password_input"><input type="password" placeholder="Enter Password" required></div>
+                                    </div>
+                                   
+                            </form>
+                           </div>
+                           <!--Student Login-->
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary"><a href="Admin_login_User_edit/Admin.html" target="_blank" class="my">Log in</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </ul>
+            </nav>
+       </div>
+   </div>
+
+   <!-- Gallery -->
+   <div class="HomepageContentsection" style="width: 1200px;">
+   <div class="section-2">
+   <div class="gallery">
+    <!--Image slider start-->
+    <div class="slider">
+        <div class="slides">
+     <!--radio buttons start-->
+     <input type="radio" name="radio-btn"  id ="radio1">
+     <input type="radio" name="radio-btn"  id ="radio2">
+     <input type="radio" name="radio-btn"  id ="radio3">
+     <input type="radio" name="radio-btn"  id ="radio4">
+     <!--radio buttons end-->
+     <!--slider images start-->
+        <div class="slide first">
+            <img src="Gallery/solid_image.JPG" alt="">
+        </div>
+        <div class="slide">
+            <img src="Gallery/solid_image.JPG" alt="">
+        </div>
+        <div class="slide">
+            <img src="Gallery/solid_image.JPG" alt="">
+        </div>
+        <div class="slide">
+            <img src="Gallery/galleryimage.JPG" alt="">
+        </div>
+     <!--slider images end-->
+     <!-- Automatic bavigation start-->
+     <div class="navigation-auto">
+         <div class="auto-btn1"></div>
+         <div class="auto-btn2"></div>
+         <div class="auto-btn3"></div>
+         <div class="auto-btn4"></div>
+     </div>
+     <!-- Automatic bavigation end-->
+    </div>
+    <!--Manual navigation Start-->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+      <!--Manual navigation End-->
+
+</div>
+      <!--Image slider end-->
+    </div>
+
+    <!-------------------------Notification Board ------------------------>
+
+    <div class="notifications">
+        <div class="title"><h4>News & Events</h4></div>
+        <div class="newslist">
+        <ul>
+            <li><p class="date">24-5-20201: </p><p> New Projects Uploaded</p></li>
+            
+            <li><p class="date">24-5-20201: </p><p> Latest updates 24 </p></li>
+          
+            <li><p class="date">24-5-20201: </p><p> Latest updates 24 </p></li>
+            <li><p class="date">24-5-20201: </p><p> New Projects Uploaded</p></li>
+            
+            <li><p class="date">24-5-20201: </p><p> Latest updates 24 </p></li>
+          
+            <li><p class="date">24-5-20201: </p><p> Latest updates 24 </p></li>
+           
+            <li><p class="date">24-5-20201: </p><p> New Projects Uploaded</p></li>
+            
+            <li><p class="date">24-5-20201: </p><p> Latest updates 24 </p></li>
+          
+            <li><p class="date">24-5-20201: </p><p> Latest updates 24 </p></li>
+           
+           
+        </ul>
+        </div>
+    </div>
+
+</div>
+
+<!------------------------------Latest Uploaded project----------------------------->
+
+<div class="section-3">
+  <div class="section-3-heading"> <h4>Latest Uploaded Projects</h4> </div>
+<div class="content_slider">
+    <div class="item-1">
+        <div class="head-1"> CSE Department</div>
+            <div class="projectdetails">
+                <i class="fas fa-laptop-code fa-4x cseicon"></i>
+                <div class="project-title"> 
+                    <h6>Speech to Text Translater Using Machine Learning Techniquies </h6> 
+                </div>
+            </div>
+        <div class="Groupdetails"><b><u>Team: </u> </b> s161007 , s1749958 ,s128734 </div>
+        <div class="viewMore"><a href="one.html"><button class="viewmore-btn">View More</button></a></div>
+    </div>
+    <div class="item-2">
+        <div class="head-1">  Ece Departments </div>
+            <div class="projectdetails">
+                <i class="fas fa-satellite fa-4x eceicon"></i>
+                <div class="project-title"> 
+                    <h6> Water Level Controller using 8051 Microcontroller  </h6> 
+                </div>
+            </div>
+        <div class="Groupdetails"><b><u>Team: </u> </b> s161007 , s1749958 ,s128734 </div>
+        <div class="viewMore"><a href="one.html"><button class="viewmore-btn">View More</button></a></div>
+    </div>
+    <div class="item-3">
+        <div class="head-1"> Mech Department </div>
+            <div class="projectdetails">
+                <i class="fas fa-tools fa-4x mechicon"></i>
+                <div class="project-title"> 
+                    <h6>Design and Fabrication Of Gear and Spline Cutting Attachment for Lathe</h6> 
+                </div>
+            </div>
+        <div class="Groupdetails"><b><u>Team: </u> </b> s161007 , s1749958 ,s128734 </div>
+        <div class="viewMore"><a href="All_projects.html"><button class="viewmore-btn">View More</button></a></div>
+    </div>
+
+  <!--<i class="fas fa-hard-hat"></i>-->
+    
+</div>
+</div>
+
+<div class="footer">
+    <div class="footer-section-1"><h4>ProjectHUB</h4>
+                Predominent motto behind the projectHUb is sharing various innovative projects done by students among the students.
+    </div>
+    <div class="footer-section-2"><h4>Quick Links</h4>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li> <a href="All_projects.html">Projects</a></li>
+            <li> <a href="projecthub.html"> More Info</a> </li>
+        </ul>
+    </div>
+    <div class="footer-section-3"> <h4>Website details</h4>
+        <ul>
+            <li> <a href="projecthub.html">Project Upload Process</a></li>
+            <li>@copyright</li>
+            <li><a href="#">designed by</a></li>
+        </ul>
+    </div>
+    <div class="footer-section-4">
+        <h4>Uploaded Projects</h4>
+        <button>32456</button>
+        <button>Date-Month-Year</button>
+  </div>
+</div>
+</div>
+
+<script src="bootstrap.min.js"></script>
+
+    <!------------------------------Imageslider Javascript------------------------------>
+    <script type="text/javascript">
+        var counter =1;
+        setInterval(function(){
+            document.getElementById('radio'+ counter).checked=true;
+            counter++;
+            if(counter >4){
+                counter = 1;
+            }
+        },5000);
+        </script>
+</body>
+</html>

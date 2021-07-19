@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="one.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="iconcss/all.min.css">
+    <link rel="stylesheet" href="iconcss/fontawesome.min.css">
+    <title>Project</title>
+</head>
+<body>
+    <div class="Main_section">
+    <div class="navigation">
+
+        <div class="navigation-bar">
+           
+            <nav class="nav-bar"> 
+                <label class="logo">ProjectHUB</label>
+                <ul class="nav-element">
+                <li> <i class="fas fa-home"></i><a href="Home.html">Home</a> </li>
+             
+
+
+                <!-- Student Login--->
+
+                <li  data-toggle="modal" data-target="#exampleModal1" class="my" style="color: white; font-size: 20px;"> <i class="fas fa-user-graduate mr-2"></i>StudentLogin</li>
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Login Page</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+
+                          <!--Student Login-->
+                          <div class="student_inputs">
+                            <form action="">
+                                    <div class="student_id">
+                                        <div class="student_icon"><i class="far fa-user"></i></div>
+                                        <div class="student_id_input"><input type="text" placeholder="Enter ID" required></div>
+                                    </div>                        
+                                    <div class="student_password">
+                                        <div class="password_icon"><i class="fas fa-key"></i></div>
+                                        <div class="student_password_input"><input type="password" placeholder="Enter Password" required></div>
+                                    </div>
+                                   
+                            </form>
+                           </div>
+                           <!--Student Login-->
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary"><a href="User_profile/user_profile.html" target="_blank" class="my" style="color: white;">Log in</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Student Login-->
+            </ul>
+            </nav>
+       </div>
+    </div>
+
+
+
+    <div class="main-page">
+        <div class="main-section">
+        
+            <div class=section-1>
+                <div class="section_1_dept_name1">
+                    <div class="section_1_dept_name1-1">Computer science and Engineering</div>
+                    <div class="section_1_dept_name1-2">123 </div>
+                </div>
+                <div class="section_1_projectdetails">
+                    <div class="section_1_project_title">
+                            <b style="font-size: 20px;">Project Title :</b> Machine Learning Based Approach to identifying SQL Injection vulnerabilities.
+                    </div>
+                    <div class="section_1_project_description">
+                        <b style="font-size: 20px;">Project Description :</b>
+                            This paper presents a machine learning classifier designed to identify SQL injection vulnerabilities in PHP code. Both classical and deep learning based machine learning algorithms were used to train and evaluate classifier models using input validation and sanitization features extracted from source code files. On ten-fold cross validations a model trained using Convolutional Neural Network(CNN) achieved the highest precision (95.4%), while a model based on Multilayer Perceptron(MLP) achieved the highest recall (63.7%) and the highest f-measure (0.746).
+                        
+                    </div>
+                    <div class="section_1_project_reference">
+                        <h2><b style="font-size: 20px;">Reference Links :</b> </h2>
+                        DOC : https://doi.org/10.1109/TOCS50858.2020.9339761
+                        DOC : https://doi.org/10.1109/TOCS50858.2020.9339761  
+                    </div>
+                    <div class="section_1_download">
+                         <button class="download"> <i class="fas fa-download"></i> Download </button>
+                    </div>
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="section2-demovideo"> 
+                    <div class="section2-title"><h4>Demo video</h4></div>
+                    <div class="section2-video"> <video controls><source src= "Golden-ratio.mp4", type="video/mp4"></video></div> 
+                </div>
+                <div class="section2-sub2">
+                    <div class="section2-title"><h4>Project Group Details</h4></div>
+                    <div class="section2-sub2-projectdetails">
+                        <ul>
+                            <li><a href="User_visit.html">1. V.Prithvi Raj singh Rathod (s160001)</a></li>
+                            <li><a href="#">2. V.Nandhini Bharadwaj (s160002)</a></li>
+                            <li><a href="#">3. B. Vermillion Blue (s160000)</a></li>
+                            <li><a href="#">4. K Neha Irin Emin (s160003)</a</li>
+                        </ul>
+                    </div>
+                   </div>
+    
+        </div>
+    </div>
+    <div class="comment-section">
+        <div class="comment-sub1">
+            
+            <form action="">
+                <div class="comment_main">
+                    <div class="comment_section">
+                        <div class="comment_content">
+                            <b>Enter Query</b> <input type="text">
+                        </div>
+                        <div class="comment_button">
+                            <button class="btn1" id="Comment" onclick="alert_msg()"> Comment </button>
+                            <button class="btn2">Cancle </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    function alert_msg(){
+        alert(" You need to Login");
+    }
+</script>
+</body>
+</html>
